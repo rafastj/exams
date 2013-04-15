@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/buemrm/!svn/ver/6283/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/dao
+END
+ApplicantDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/buemrm/!svn/ver/19047/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/dao/ApplicantDAO.java
+END
+TechnologyDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/buemrm/!svn/ver/19047/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/dao/TechnologyDAO.java
+END
+GenericDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/dao/GenericDao.java
+END
+TechScoreDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/buemrm/!svn/ver/19268/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/dao/TechScoreDAO.java
+END
+TestModelDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/buemrm/!svn/ver/19268/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/dao/TestModelDao.java
+END
+ProfileDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/buemrm/!svn/ver/19047/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/dao/ProfileDAO.java
+END
+GenericDaoImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/buemrm/!svn/ver/19047/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/dao/GenericDaoImplementation.java
+END
+SeniorityDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/buemrm/!svn/ver/19047/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/dao/SeniorityDAO.java
+END
+TestModelQuestionQtyDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/buemrm/!svn/ver/19268/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/dao/TestModelQuestionQtyDAO.java
+END
+QuestionDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/buemrm/!svn/ver/14306/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/dao/QuestionDAO.java
+END
+OptionDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/buemrm/!svn/ver/14306/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/dao/OptionDAO.java
+END

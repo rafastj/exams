@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/buemrm/!svn/ver/7512/Development/Projects/JAVA/Examenes/web/WEB-INF
+END
+sun-web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/sun-web.xml
+END
+struts.properties
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/buemrm/!svn/ver/19047/Development/Projects/JAVA/Examenes/web/WEB-INF/struts.properties
+END
+taglib.tld
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/taglib.tld
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/buemrm/!svn/ver/19268/Development/Projects/JAVA/Examenes/web/WEB-INF/applicationContext.xml
+END
+applicationContext-DAO.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/buemrm/!svn/ver/19047/Development/Projects/JAVA/Examenes/web/WEB-INF/applicationContext-DAO.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/buemrm/!svn/ver/19047/Development/Projects/JAVA/Examenes/web/WEB-INF/web.xml
+END

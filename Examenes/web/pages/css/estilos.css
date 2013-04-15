@@ -1,0 +1,42 @@
+body{ background-color:#C6CEE2; background-image:url(../img/bg-content.jpg); background-repeat:repeat-x;}
+.container {width:896px; height:auto; margin:auto;}
+.container .head {float:left, width:896px; height:auto;}
+.container .contenido {font-family:"Courier New", Courier, monospace; font-size:14px;  padding:10px;float:left; background:#FFF; width:876px; border-radius:0px 0px 15px 15px; -moz-border-radius:0px 0px 15px 15px; } 
+.nouser{font-family:"Courier New", Courier, monospace; font-size:14px; padding:10px; background:#FFF; width:876px; border-radius:0px 0px 15px 15px; -moz-border-radius:0px 0px 15px 15px;}
+
+.contenedor{ width:896px; margin:auto;}
+.contenedor .header{width:896px; height:114px; background:url(../img/bg-nav.png);}
+.contenedor .header .logo{ background:url(../img/logo.png); width:61px; height:21px; float:left; margin-left:30px}
+.contenedor .menu{float:left; background:#FFF; width:100%;}
+.contenedor .user{float:left;background:#FFF;font-family:"Courier New", Courier, monospace; padding:5px; font-size:12px;width:886px; height:20px;}
+.contenedor .errormsg{font-family:"Courier New", Courier, monospace;color:#F00; font-size:16px;background:#FFF;width:876px;padding:10px;}
+.contenedor .scsmsg{font-family:"Courier New", Courier, monospace;color:#090; font-size:16px;background:#FFF;width:876px;padding:10px;}
+
+body {
+	background-color:#C6CEE2;
+	background-image:url(../img/bg-content.jpg);
+	background-repeat:repeat-x;
+}
+
+ul.tabs {
+    margin:0;
+    padding:0;
+}
+ul.tabs li {
+    display:block;
+    float:left;
+
+}
+ul.tabs li a {
+	font-family:"Courier New", Courier, monospace;
+    display:block;
+    float:left;
+    padding:5px 12px;
+    font-size:12px;
+    color:#666;
+    text-decoration:none;
+}
+
+ul.tabs li a:hover {
+	font-color:#30C;	
+}

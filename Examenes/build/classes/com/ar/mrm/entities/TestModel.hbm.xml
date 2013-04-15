@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Aug 9, 2010 2:30:13 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="evaluation" name="com.ar.mrm.entities.TestModel" table="test_model">
+    <id name="id" type="java.lang.Integer">
+      <column name="id"/>
+      <generator class="identity"/>
+    </id>
+    <many-to-one class="com.ar.mrm.entities.Seniority" fetch="select" name="seniority" lazy="false">
+      <column name="seniority_id" not-null="true"/>
+    </many-to-one>
+    <many-to-one class="com.ar.mrm.entities.Profile" fetch="select" name="profile" lazy="false">
+      <column name="profile_id" not-null="true"/>
+    </many-to-one>
+    <set inverse="true" name="testModelQuestionqties">
+      <key>
+        <column name="test_model_id" not-null="true"/>
+      </key>
+      <one-to-many class="com.ar.mrm.entities.TestModelQuestionqty"/>
+    </set>
+    <set inverse="true" name="tests" cascade="none">
+      <key>
+        <column name="test_model_id" not-null="true"/>
+      </key>
+      <one-to-many class="com.ar.mrm.entities.Test"/>
+    </set>
+    <property name="minutesToFinish" type="int">
+      <column name="minutesToFinish" not-null="false"/>
+    </property>
+    
+  </class>
+</hibernate-mapping>

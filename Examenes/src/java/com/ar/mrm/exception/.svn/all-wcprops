@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/buemrm/!svn/ver/14723/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/exception
+END
+QuantityFieldEmptyException.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/buemrm/!svn/ver/14880/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/exception/QuantityFieldEmptyException.java
+END
+TestModelWithoutTechnollogiesException.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/buemrm/!svn/ver/18932/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/exception/TestModelWithoutTechnollogiesException.java
+END
+TotalAmountOfQuestionsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/buemrm/!svn/ver/18920/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/exception/TotalAmountOfQuestionsException.java
+END
+TechnologyAlreadyExistsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/buemrm/!svn/ver/14723/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/exception/TechnologyAlreadyExistsException.java
+END

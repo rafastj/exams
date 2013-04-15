@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="actions" namespace="/actions" extends="struts-default">
+        <action name="CreateTestAction" class="com.ar.actions.CreateTestAction">
+            <result>/example/HelloWorld.jsp</result>
+        </action>
+        <action name="populateQuestionFormAction" class="com.ar.actions.QuestionCreationInfoAction">
+       <result>/pages/create_question.jsp</result>
+        </action>
+        <action name="CreateQuestionAction" class="com.ar.actions.CreateQuestionAction">
+            <result>/example/HelloWorld.jsp</result>      
+        </action>
+          <action name="selectTestAction" class="com.ar.actions.QuestionCreationInfoAction">
+            <result>/pages/select_test.jsp</result>
+        </action>
+           <action name="createTestAction" class="com.ar.actions.CreateTestAction">
+            <result>/pages/test.jsp</result>
+        </action>
+    </package>
+</struts>
+

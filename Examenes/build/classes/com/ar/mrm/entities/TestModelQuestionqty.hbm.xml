@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Aug 9, 2010 2:30:13 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="evaluation" name="com.ar.mrm.entities.TestModelQuestionqty" table="test_model_questionqty">
+    <id name="id" type="java.lang.Integer">
+      <column name="id"/>
+      <generator class="identity"/>
+    </id>
+    <many-to-one class="com.ar.mrm.entities.Seniority" fetch="select" name="seniority">
+      <column name="seniority_id" not-null="true"/>
+    </many-to-one>
+    <many-to-one class="com.ar.mrm.entities.TestModel" fetch="select" name="testModel">
+      <column name="test_model_id" not-null="false"/>
+    </many-to-one>
+    <many-to-one class="com.ar.mrm.entities.Technology" fetch="select" name="technology">
+      <column name="technology_id" not-null="true"/>
+    </many-to-one>
+    <property name="qtyQuestions" type="int">
+      <column name="qty_questions" not-null="true"/>
+    </property>
+  </class>
+</hibernate-mapping>

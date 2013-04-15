@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC 
+	"-//SPRING//DTD BEAN//EN" 
+	"http://www.springframework.org/dtd/spring-beans.dtd">
+	
+<beans>
+           
+	<!-- Struts2 Actions -->
+
+    <bean name="applicantDao" class="com.ar.mrm.dao.ApplicantDAO"/>
+    <bean name="technologyDao" class="com.ar.mrm.dao.TechnologyDAO"/>
+    <bean name="profileDao" class="com.ar.mrm.dao.ProfileDAO"/>
+    <bean name="seniorityDao" class="com.ar.mrm.dao.SeniorityDAO"/>
+    <bean name="techScoreDAO" class="com.ar.mrm.dao.TechScoreDAO"/>
+    <bean name="testModelQuestionQtyDao" class="com.ar.mrm.dao.TestModelQuestionQtyDAO"/>
+    <bean name="testModelDao" class="com.ar.mrm.dao.TestModelDao"/>
+	
+
+	<bean id="createProfileClass" class="com.ar.actions.CreateProfileAction" singleton="false">
+		<property name="profileDao" ref="profileDao" />
+	</bean>	
+	
+	<bean id="createTestModelClass" class="com.ar.actions.CreateNewTestModelAction" singleton="false">
+		<property name="seniorityDao" ref="seniorityDao" />
+		<property name="profileDao" ref="profileDao" />
+		<property name="technologyDao" ref="technologyDao" />
+		<property name="testModelQuestionQtyDao" ref="testModelQuestionQtyDao" />
+		<property name="testModelDao" ref="testModelDao" />
+	</bean>	
+	
+	<bean id="finishTestClass" class="com.ar.actions.FinishTestAction" singleton="false">
+		<property name="techScoreDAO" ref="techScoreDAO" />
+		<property name="technologyDao" ref="technologyDao" />
+	</bean>
+
+	<bean id="createApplicantActionIntranetClass" class="com.ar.actions.CreateApplicantActionIntranet" singleton="false">
+		<property name="applicantDao" ref="applicantDao" />
+		<property name="seniorityDao" ref="seniorityDao" />
+		<property name="profileDao" ref="profileDao" />
+	</bean>
+	
+	<bean id="createApplicantClass" class="com.ar.actions.CreateApplicantAction" singleton="false">
+		<property name="seniorityDao" ref="seniorityDao" />
+		<property name="profileDao" ref="profileDao" />
+	</bean>
+	
+	
+	<bean id="showAllApplicantsClass" class="com.ar.actions.QuestionCreationInfoAction" singleton="false">
+		<property name="applicantDao" ref="applicantDao" />
+		<!-- 
+		<property name="technologyDao" ref="technologyDao" />
+		 -->
+	</bean>
+	
+	<bean id="showTestResultsActionClass" class="com.ar.actions.ShowTestResultsAction" singleton="false">
+		<property name="applicantDao" ref="applicantDao" />
+		<property name="technologyDao" ref="technologyDao" />
+	</bean>
+	
+
+</beans>

@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{ background-color:#C6CEE2; background-image:url(../img/bg-content.jpg); background-repeat:repeat-x;}
+.container {width:896px; height:auto; margin:auto;}
+.container .head {float:left, width:896px; height:auto;}
+.container .contenido {font-family:"Courier New", Courier, monospace; font-size:14px;  padding:10px;float:left; background:#FFF; width:876px; border-radius:0px 0px 15px 15px; -moz-border-radius:0px 0px 15px 15px; } 
+.nouser{font-family:"Courier New", Courier, monospace; font-size:14px; padding:10px; background:#FFF; width:876px; border-radius:0px 0px 15px 15px; -moz-border-radius:0px 0px 15px 15px;}

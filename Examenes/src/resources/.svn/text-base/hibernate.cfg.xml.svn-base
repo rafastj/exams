@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    
+    <!--
+    <property name="hibernate.connection.url">jdbc:mysql://localhost/evaluation</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">root</property>
+     -->
+    
+     
+    <property name="hibernate.connection.url">jdbc:mysql://dev.mrm.com.ar/evaluation</property>
+    <property name="hibernate.connection.username">evaluation</property>
+    <property name="hibernate.connection.password">evaluation</property>    
+    
+	<property name="show_sql">true</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
+    <property name="hibernate.current_session_context_class">org.hibernate.context.ThreadLocalSessionContext</property>
+    <mapping resource="com/ar/mrm/entities/Profile.hbm.xml"/>
+    <mapping resource="com/ar/mrm/entities/Option.hbm.xml"/>
+    <mapping resource="com/ar/mrm/entities/Test.hbm.xml"/>
+    <mapping resource="com/ar/mrm/entities/Seniority.hbm.xml"/>
+    <mapping resource="com/ar/mrm/entities/TechScore.hbm.xml"/>
+    <mapping resource="com/ar/mrm/entities/QuestionAnswered.hbm.xml"/>
+    <mapping resource="com/ar/mrm/entities/OptionChosed.hbm.xml"/>
+    <mapping resource="com/ar/mrm/entities/TestModelQuestionqty.hbm.xml"/>
+    <mapping resource="com/ar/mrm/entities/TestModel.hbm.xml"/>
+    <mapping resource="com/ar/mrm/entities/Question.hbm.xml"/>
+    <mapping resource="com/ar/mrm/entities/Applicant.hbm.xml"/>
+    <mapping resource="com/ar/mrm/entities/Technology.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>

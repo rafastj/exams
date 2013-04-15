@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+    <bean name="applicant" class="com.ar.mrm.entities.Applicant"/>
+
+
+    <bean name="applicantsDao" class="com.ar.mrm.dao.GenericDaoImplementation">
+		<constructor-arg><ref bean="applicant"/></constructor-arg>
+    </bean>
+    
+    <!-- 
+	<bean name="clientDao" class="com.mrmworldwide.dpp.server.dao.ClientDao"/>
+    <bean name="categoryDao" class="com.mrmworldwide.dpp.server.dao.CategoryDao"/>
+    <bean name="courseDao" class="com.mrmworldwide.dpp.server.dao.CourseDao">
+    	<property name="courseQuotaDao" ref="courseQuotaDao"/>
+    </bean>
+    <bean name="cityDao" class="com.mrmworldwide.dpp.server.dao.CityDao"/>
+    <bean name="courseQuotaDao" class="com.mrmworldwide.dpp.server.dao.CourseQuotaDao"/>
+    <bean name="courseQuotaDateDao" class="com.mrmworldwide.dpp.server.dao.CourseQuotaDateDao">
+    	<property name="courseQuotaDao" ref="courseQuotaDao"/>
+    </bean>
+    <bean name="courseQuotaClientDao" class="com.mrmworldwide.dpp.server.dao.CourseQuotaClientDao"/>
+    <bean name="managerDao" class="com.mrmworldwide.dpp.server.dao.ManagerDao"/>
+    <bean name="salesZoneDao" class="com.mrmworldwide.dpp.server.dao.SalesZoneDao"/>
+    <bean name="clientsTypeDao" class="com.mrmworldwide.dpp.server.dao.ClientsTypeDao"/>
+    <bean name="clientsGroupDao" class="com.mrmworldwide.dpp.server.dao.ClientsGroupDao"/>
+    <bean name="sectorDao" class="com.mrmworldwide.dpp.server.dao.SectorDao"/>
+    <bean name="utilitiesDao" class="com.mrmworldwide.dpp.server.dao.UtilitiesDao">
+    	<property name="salesZoneDao" ref="salesZoneDao"/>
+    	<property name="managerDao" ref="managerDao"/>
+    	<property name="clientsTypeDao" ref="clientsTypeDao"/>
+    	<property name="sectorDao" ref="sectorDao"/>
+    	<property name="clientsGroupDao" ref="clientsGroupDao"/>
+    	<property name="cityDao" ref="cityDao"/>
+    </bean>
+     -->
+    
+
+</beans>

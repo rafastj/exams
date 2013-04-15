@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- You may freely edit this file. See commented blocks below for -->
+<!-- some examples of how to customize the build. -->
+<!-- (If you delete it and reopen the project it will be recreated.) -->
+<!-- By default, only the Clean and Build commands use this build script. -->
+<!-- Commands such as Run, Debug, and Test only use this build script if -->
+<!-- the Compile on Save feature is turned off for the project. -->
+<!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
+<!-- in the project's Project Properties dialog box.-->
+<project name="Exam" basedir=".">  
+    <description>Builds and deploy the project Exam.</description> 
+	
+	<property file="build.properties"/>
+	<property environment="env"/>
+	
+	<path id="class.path">
+	  <fileset dir="web/WEB-INF/lib">
+		<include name="**/*.jar"/>
+	  </fileset>
+	</path>
+	
+	<target name="clean">	
+		<delete dir="build/classes"/>
+	</target>
+	
+	<target name="compile">	
+		<mkdir dir="build/classes"/>
+		<javac target="1.5" destdir="build/classes" includeantruntime="false" classpathref="class.path" srcdir="src/java"/>
+		  <copy todir="build/classes">
+			<fileset dir="src/resources">
+			  <include name="**/*"/>
+			</fileset>
+		  	<fileset dir="src/java">
+			  <include name="**/*.xml"/>
+			</fileset>
+		  </copy>
+	</target>
+	
+	
+	<target name="war" depends="compile">
+		<war destfile="build/Examenes.war">
+		  <fileset dir="web"/>
+		  <classes dir="build/classes"/>
+		</war>
+	</target>
+	
+    <target name="deploy-dev" depends="war">
+        <echo message="Deploying ..."/>
+        <taskdef name="deploy" classname="org.apache.catalina.ant.DeployTask"
+                 classpath="lib/catalina-ant.jar"/>
+		<property name="tomcat.url" value="${tomcat.dev.url}"/>
+		<property name="tomcat.user" value="${tomcat.dev.user}"/>
+		<property name="tomcat.pass" value="${tomcat.dev.pass}"/>
+        <deploy url="${tomcat.url}/manager" username="${tomcat.user}"
+                password="${tomcat.pass}" path="/Examenes"
+                war="build/Examenes.war"/>
+        
+    </target>
+	
+    <target name="undeploy-dev" >
+        <echo message="Undeploying ...}"/>
+        <taskdef name="undeploy"  classname="org.apache.catalina.ant.UndeployTask"
+                classpath="lib/catalina-ant.jar"/>
+		<property name="tomcat.url" value="${tomcat.dev.url}"/>
+		<property name="tomcat.user" value="${tomcat.dev.user}"/>
+		<property name="tomcat.pass" value="${tomcat.dev.pass}"/>
+        <undeploy url="${tomcat.url}/manager" username="${tomcat.user}" 
+                  password="${tomcat.pass}" path="/Examenes"/>
+    </target>
+	
+</project>

@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/buemrm/!svn/ver/8238/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities
+END
+Applicant.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/buemrm/!svn/ver/18800/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/Applicant.hbm.xml
+END
+Technology.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/Technology.hbm.xml
+END
+QuestionAnswered.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/QuestionAnswered.java
+END
+Profile.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/Profile.java
+END
+TestModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/buemrm/!svn/ver/14261/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/TestModel.java
+END
+TechScore.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/TechScore.hbm.xml
+END
+Test.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/buemrm/!svn/ver/18800/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/Test.hbm.xml
+END
+Question.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/buemrm/!svn/ver/14653/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/Question.java
+END
+Option.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/buemrm/!svn/ver/14653/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/Option.java
+END
+Seniority.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/Seniority.hbm.xml
+END
+TestModelQuestionqty.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/buemrm/!svn/ver/14261/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/TestModelQuestionqty.hbm.xml
+END
+Applicant.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/buemrm/!svn/ver/18800/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/Applicant.java
+END
+Technology.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/buemrm/!svn/ver/8238/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/Technology.java
+END
+TechScore.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/buemrm/!svn/ver/5104/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/TechScore.java
+END
+Test.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/buemrm/!svn/ver/18800/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/Test.java
+END
+OptionChosed.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/OptionChosed.hbm.xml
+END
+QuestionAnswered.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/QuestionAnswered.hbm.xml
+END
+Profile.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/Profile.hbm.xml
+END
+TestModel.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/buemrm/!svn/ver/15418/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/TestModel.hbm.xml
+END
+Seniority.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/Seniority.java
+END
+TestModelQuestionqty.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/buemrm/!svn/ver/18837/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/TestModelQuestionqty.java
+END
+Question.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/buemrm/!svn/ver/14653/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/Question.hbm.xml
+END
+Option.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/Option.hbm.xml
+END
+OptionChosed.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/src/java/com/ar/mrm/entities/OptionChosed.java
+END

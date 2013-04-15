@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/buemrm/!svn/ver/14729/Development/Projects/JAVA/Examenes/web/WEB-INF/lib
+END
+org.springframework.context-3.1.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/buemrm/!svn/ver/19047/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/org.springframework.context-3.1.1.RELEASE.jar
+END
+org.springframework.core-3.1.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/buemrm/!svn/ver/19047/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/org.springframework.core-3.1.1.RELEASE.jar
+END
+org.springframework.beans-3.1.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/buemrm/!svn/ver/19047/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/org.springframework.beans-3.1.1.RELEASE.jar
+END
+jdbc2_0-stdext.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/jdbc2_0-stdext.jar
+END
+jta.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/jta.jar
+END
+dom4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/dom4j-1.6.1.jar
+END
+cglib-2.1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/cglib-2.1.3.jar
+END
+org.springframework.expression-3.1.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/buemrm/!svn/ver/19047/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/org.springframework.expression-3.1.1.RELEASE.jar
+END
+ognl-2.6.11.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/ognl-2.6.11.jar
+END
+commons-collections-2.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/commons-collections-2.1.1.jar
+END
+struts2-core-2.0.11.jar
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/struts2-core-2.0.11.jar
+END
+freemarker-2.3.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/freemarker-2.3.8.jar
+END
+servlet-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/buemrm/!svn/ver/5250/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/servlet-api.jar
+END
+commons-logging-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/commons-logging-1.1.jar
+END
+hibernate-annotations.jar
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/hibernate-annotations.jar
+END
+hibernate-tools.jar
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/hibernate-tools.jar
+END
+log4j-1.2.16.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/buemrm/!svn/ver/14729/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/log4j-1.2.16.jar
+END
+org.springframework.web.struts-3.1.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/buemrm/!svn/ver/19047/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/org.springframework.web.struts-3.1.1.RELEASE.jar
+END
+ejb3-persistence.jar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/ejb3-persistence.jar
+END
+hibernate-commons-annotations.jar
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/hibernate-commons-annotations.jar
+END
+hibernate-entitymanager.jar
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/hibernate-entitymanager.jar
+END
+javassist.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/javassist.jar
+END
+xwork-2.0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/xwork-2.0.4.jar
+END
+asm-attrs.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/asm-attrs.jar
+END
+ehcache-1.2.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/ehcache-1.2.3.jar
+END
+asm.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/asm.jar
+END
+hibernate3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/hibernate3.jar
+END
+mysql-connector-java-5.1.6-bin.jar
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/mysql-connector-java-5.1.6-bin.jar
+END
+antlr-2.7.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/antlr-2.7.6.jar
+END
+commons-logging-1.0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/buemrm/!svn/ver/4472/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/commons-logging-1.0.4.jar
+END
+spring-web-3.0.5.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/buemrm/!svn/ver/19047/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/spring-web-3.0.5.RELEASE.jar
+END
+org.springframework.web-3.1.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/buemrm/!svn/ver/19047/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/org.springframework.web-3.1.1.RELEASE.jar
+END
+struts2-spring-plugin-2.0.11.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/buemrm/!svn/ver/19047/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/struts2-spring-plugin-2.0.11.2.jar
+END
+org.springframework.asm-3.1.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/buemrm/!svn/ver/19047/Development/Projects/JAVA/Examenes/web/WEB-INF/lib/org.springframework.asm-3.1.1.RELEASE.jar
+END

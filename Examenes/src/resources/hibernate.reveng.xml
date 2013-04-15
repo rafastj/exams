@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="evaluation"/>
+  <table-filter match-name="question"/>
+  <table-filter match-name="applicant"/>
+  <table-filter match-name="seniority"/>
+  <table-filter match-name="questiontest"/>
+  <table-filter match-name="technology"/>
+  <table-filter match-name="profile"/>
+  <table-filter match-name="option"/>
+  <table-filter match-name="question_answered"/>
+  <table-filter match-name="option_chosed"/>
+  <table-filter match-name="test"/>
+  <table-filter match-name="test_model"/>
+  <table-filter match-name="tech_score"/>
+  <table-filter match-name="test_model_questionqty"/>
+</hibernate-reverse-engineering>

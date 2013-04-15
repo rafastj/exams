@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="pages" namespace="/pages" extends="struts-default">
+
+		<interceptors>
+			<interceptor name="login"
+				class="com.ar.mrm.interceptors.LoginInterceptor" />
+		</interceptors>
+		<global-results>
+			<result name="login">/pages/login.jsp</result>
+		</global-results>
+
+
+		<action name="showAllApplicants" class="com.ar.actions.QuestionCreationInfoAction">
+			<result>/pages/show_all_applicants.jsp</result>
+		</action>
+
+		<action name="totalAmountOfQuestionsAction" class="com.ar.actions.TotalAmountOfQuestionsAction">
+			<result>/pages/seniorityCombo.jsp</result>
+		</action>
+
+		<action name="populateQuestionFormAction" class="com.ar.actions.QuestionCreationInfoAction">
+			<interceptor-ref name="login" />
+			<result>/pages/create_question.jsp</result>
+		</action>
+		
+		<action name="CreateQuestionAction" class="com.ar.actions.CreateQuestionAction">
+			<result name="error" type="redirect-action">populateQuestionFormAction</result>
+			<result type="redirect-action">populateQuestionFormAction</result>
+
+		</action>
+
+		<action name="showTestForApplicant" class="com.ar.actions.ShowTestAction">
+			<result name="error" type="redirect-action">showApplicantLogin</result>
+			<result>/pages/popup.jsp</result>
+			<!-- <result>/pages/test.jsp</result> -->
+		</action>
+
+		<action name="addTechnologyToTestModel" class="com.ar.actions.ShowTechQuestionsForModelAction">
+			<result name="error" type="redirect-action">showApplicantLogin</result>
+			<result>/pages/addTechnologyToTestModelPopup.jsp</result>
+		</action>
+
+		<action name="createTestModelQuestionQty" class="com.ar.actions.CreateTestModelQuestionQtyAction">
+			<result name="redirect" type="redirect-action">
+				<param name="actionName">showTestModel</param>
+				<param name="namespace">/pages</param>
+				<param name="parse">true</param>
+				<param name="testModel">${testModel}</param>
+			</result>
+		</action>
+
+
+		<action name="showTestForApplicantPopUp" class="com.ar.actions.ShowTestAction">
+			<result name="error" type="redirect-action">showApplicantLogin</result>
+			<!-- <result>/pages/popup.jsp</result> -->
+			<result>/pages/test.jsp</result>
+		</action>
+
+		<action name="showApplicantLogin" class="com.ar.actions.QuestionCreationInfoAction">
+			<result>/pages/show_login_test_for_user.jsp</result>
+		</action>
+
+
+
+
+		<action name="createNewApplicantForm" class="com.ar.actions.QuestionCreationInfoAction">
+			<interceptor-ref name="login" />
+			<result>/pages/new_applicant.jsp</result>
+		</action>
+
+		<action name="reloadActionWithTestModel" class="com.ar.actions.ReloadActionWithTestModel">
+			<result>/pages/new_applicant.jsp</result>
+		</action>
+
+		<action name="createApplicantAction" class="com.ar.actions.CreateApplicantAction">
+			<result name="error" type="redirect-action">createNewApplicantForm</result>
+			<result>/pages/new_applicant.jsp</result>
+		</action>
+
+
+		<action name="createApplicantActionIntranet" class="com.ar.actions.CreateApplicantActionIntranet">
+			<result name="error">/pages/code.jsp</result>
+			<result>/pages/code.jsp</result>
+		</action>
+		
+		
+		<!-- <action name="evaluateTestAction" class="com.ar.actions.EvaluateTestAction"> -->
+		<!-- <result name="error">/pages/This_test_has_been_done.jsp</result> -->
+		<!-- <result>/pages/thank_you_for_applying.jsp</result> -->
+		<!-- </action> -->
+
+		<action name="nextQuestionAction" class="com.ar.actions.NextQuestionAction">
+			<result name="error">/pages/This_test_has_been_done.jsp</result>
+			<result name="success">/pages/question.jsp</result>
+			<result name="redirect" type="redirect-action">
+				<param name="actionName">finishTestAction</param>
+			</result>
+			<result name="TEST-TIME-OUT" type="redirect-action">
+				<param name="actionName">finishTestAction</param>
+			</result>
+			<result name="end">/pages/thank_you_for_applying.jsp</result>
+		</action>
+
+		<action name="finishTestAction" class="com.ar.actions.FinishTestAction">
+			<result name="error">/pages/This_test_has_been_done.jsp</result>
+			<result name="SUCCESS">/pages/thank_you_for_applying.jsp</result>
+		</action>
+
+		<action name="populasteShowTestAction" class="com.ar.actions.QuestionCreationInfoAction">
+			<interceptor-ref name="login" />
+			<result>/pages/show_test.jsp</result>
+		</action>
+		<action name="showTestAction" class="com.ar.actions.ShowTestResultsAction">
+			<result name="error" type="redirect-action">populasteShowTestAction</result>
+			<result>/pages/show_test.jsp</result>
+		</action>
+
+		<action name="showTestDetailAction" class="com.ar.actions.ShowTestResultsAction"
+			method="showTest">
+			<result name="error" type="redirect-action">populasteShowTestAction</result>
+			<result>/pages/show_test.jsp</result>
+		</action>
+
+		<!-- Agregado -->
+
+		<action name="showCreateTestModelAction" class="com.ar.actions.ShowTechQuestionsForModelAction">
+			<interceptor-ref name="login" />
+			<result>/pages/create_test_model.jsp</result>
+		</action>
+
+		<action name="createTestModelAction" class="com.ar.actions.CreateNewTestModelAction">
+			<result name="error" type="redirect-action">showCreateTestModelAction</result>
+			<result>/pages/create_test_model.jsp</result>
+		</action>
+
+		<!-- Fin Agregado -->
+
+		<!-- <action name="createTestModelAction" class="com.ar.actions.CreateNewTestModelAction"> 
+			<result name="error" type="redirect-action">showCreateTestModelAction</result> 
+			<result type="redirect-action">showCreateTestModelAction</result> </action> -->
+
+		<action name="logOut" class="com.ar.actions.LogOutAction">
+			<result>/pages/index.jsp</result>
+		</action>
+
+		<action name="homeAction" class="com.ar.actions.HomeAction">
+			<result>/pages/index.jsp</result>
+		</action>
+
+		<action name="showTestModels" class="com.ar.actions.QuestionCreationInfoAction">
+			<!-- 
+			<interceptor-ref name="login" />
+			 -->
+			<result>/pages/show_test_models.jsp</result>
+		</action>
+
+		<action name="showTestModel" class="com.ar.actions.ShowTestModelAction">
+			<result>/pages/show_test_models.jsp</result>
+		</action>
+
+		<action name="editTestModel" class="com.ar.actions.EditTestModelAction">
+			<result name="redirect" type="redirect-action">
+				<param name="actionName">showTestModel</param>
+				<param name="namespace">/pages</param>
+				<param name="parse">true</param>
+				<param name="testModel">${idTestModel}</param>
+				<param name="editMode">true</param>
+			</result>
+			<result name="input" >/pages/show_test_models.jsp</result>
+			<result>/pages/show_test_models.jsp</result>
+			<!-- 
+			 -->
+		</action>
+		
+		<action name="deleteTestModel" class="com.ar.actions.DeleteTestModelAction">
+			<result name="redirect" type="redirect-action">
+				<param name="actionName">showTestModel</param>
+				<param name="namespace">/pages</param>
+				<param name="parse">true</param>
+				<param name="testModel">${idTestModel}</param>
+				<param name="editMode">true</param>
+			</result>
+		</action>
+		
+	
+
+		<action name="editTestTime" class="com.ar.actions.EditTestTimeAction">
+			<result name="redirect" type="redirect-action">
+				<param name="actionName">showTestModels</param>
+			</result>
+		</action>
+
+		<action name="showCreateTechnology" class="com.ar.actions.QuestionCreationInfoAction">
+			<interceptor-ref name="login" />
+			<result>/pages/new_category.jsp</result>
+		</action>
+
+		<action name="createTechnologyAction" class="com.ar.actions.CreateTechnologyAction">
+			<result name="error" type="redirect-action">showCreateTechnology</result>
+			<result type="redirectAction">
+				<param name="actionName">showCreateTechnology</param>
+			</result>
+		</action>
+
+		<action name="showCreateProfile" class="com.ar.actions.QuestionCreationInfoAction">
+			<interceptor-ref name="login" />
+			<result>/pages/new_profile.jsp</result>
+		</action>
+
+		<action name="createProfileAction" class="com.ar.actions.CreateProfileAction">
+			<result type="redirectAction">
+				<param name="actionName">showCreateProfile</param>
+			</result>
+		</action>
+
+		<action name="showAllQuestions" class="com.ar.actions.QuestionCreationInfoAction">
+			<interceptor-ref name="login" />
+			<result>/pages/show_all_questions.jsp</result>
+		</action>
+
+
+		<action name="showQuestionsByTechnologyAction" class="com.ar.actions.ShowQuestionsByTechnologyAction">
+			<result>/pages/show_all_questions.jsp</result>
+		</action>
+
+
+
+		<action name="showLogin">
+			<result>/pages/login.jsp</result>
+		</action>
+
+		<action name="doLogin" class="com.ar.actions.LoginAction">
+			<result name="input">/pages/login.jsp</result>
+			<result name="error">/pages/login.jsp</result>
+			<result>/pages/index.jsp</result>
+		</action>
+
+		<!-- Agregados -->
+		<action name="showModificarQuestionAction" class="com.ar.actions.ShowModificarQuestionAction">
+			<result>/pages/modificar_question.jsp</result>
+		</action>
+
+		<action name="updateQuestionAction" class="com.ar.actions.UpdateQuestionAction">
+			<result name="error" type="redirectAction">
+				<param name="actionName">showModificarQuestionAction</param>
+				<param name="namespace">/pages</param>
+				<param name="parse">true</param>
+				<param name="id_q">${id_q}</param>
+			</result>
+			<result name="redirect" type="redirectAction">
+				<param name="actionName">showModificarQuestionAction</param>
+				<param name="namespace">/pages</param>
+				<param name="parse">true</param>
+				<param name="id_q">${id_q}</param>
+			</result>
+			<!-- 
+			<result>/pages/modificar_question.jsp</result>
+			 -->
+		</action>
+
+		<action name="eliminarQuestionAction" class="com.ar.actions.EliminarQuestionAction">
+			<result name="redirect" type="redirectAction">
+				<param name="actionName">showAllQuestions</param>
+			</result>
+		</action>
+		<action name="eliminarOpcionAction" class="com.ar.actions.EliminarOpcionAction">
+			<result name="redirect" type="redirectAction">
+				<param name="actionName">showAllQuestions</param>
+			</result>
+		</action>
+</package>
+</struts>
+
